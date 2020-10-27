@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\kevin\AppData\Local\JetBrains\Rider2020.2\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\kevin\AppData\Local\JetBrains\Rider2020.2\resharper-host\Local\Transient\Rider\v202\SolutionCaches\_WebApplication.-177301619.00" t="ExcludeRecursive" />
+    <e p="C:\Users\kevin\AppData\Roaming\JetBrains\Rider2020.2\scratches" t="IncludeRecursive" />
+    <e p="E:\titlset rpg Maker\Perso\APNBackEnd\WebApplication" t="IncludeRecursive">
+      <e p="appsettings.Development.json" t="Include" />
+      <e p="appsettings.json" t="Include" />
+      <e p="bin" t="ExcludeRecursive" />
+      <e p="Controllers" t="Include">
+        <e p="JdrController.cs" t="Include" />
+        <e p="MembreController.cs" t="Include" />
+        <e p="ObjetController.cs" t="Include" />
+        <e p="WeatherForecastController.cs" t="Include" />
+      </e>
+      <e p="Dao" t="Include">
+        <e p="JdrContext.cs" t="Include" />
+        <e p="JdrDao.cs" t="Include" />
+        <e p="MembreDao.cs" t="Include" />
+        <e p="ObjetDao.cs" t="Include" />
+      </e>
+      <e p="Model" t="Include">
+        <e p="Jdr.cs" t="Include" />
+        <e p="Membre.cs" t="Include" />
+        <e p="Objet.cs" t="Include" />
+      </e>
+      <e p="obj" t="ExcludeRecursive">
+        <e p="Debug" t="Include">
+          <e p="netcoreapp3.1" t="Include">
+            <e p="WebApplication.AssemblyInfo.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Program.cs" t="Include" />
+      <e p="Properties" t="Include">
+        <e p="launchSettings.json" t="Include" />
+      </e>
+      <e p="Startup.cs" t="Include" />
+      <e p="WeatherForecast.cs" t="Include" />
+      <e p="WebApplication.csproj" t="IncludeRecursive" />
+      <e p="WebApplication.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
