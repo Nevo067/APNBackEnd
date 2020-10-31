@@ -6,9 +6,9 @@ namespace WebApplication.Model
     {
         public int Id {get; set;}
         public string Nom{get;set;}
-        public int IdMenber{get;set;}
+       
         
         public Membre Membre { get; set; }
-        public int MembreId { get; set; }
+        
     }
 }

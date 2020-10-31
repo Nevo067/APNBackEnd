@@ -25,7 +25,10 @@ namespace WebApplication
         {
             using (JdrContext context = new JdrContext())
             {
+                context.Database.EnsureDeleted();
                 context.Database.EnsureCreated();
+                context.ApplyOptionChange();
+                //context.Database.
               
                 context.SaveChanges();
                 //var jdrWithName = context.JdrTable.First();

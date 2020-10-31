@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication.Model;
@@ -16,7 +17,8 @@ namespace WebApplication.Dao
         {
             using (var _MembreContex = new JdrContext())
             {
-                return _MembreContex.MembreTable.ToList();
+                List<Membre>cc =_MembreContex.MembreTable.ToList();
+                return cc;
             }
            
         }

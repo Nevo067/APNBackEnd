@@ -56,3 +56,4 @@ E:\titlset rpg Maker\Perso\APNBackEnd\WebApplication\bin\Debug\netcoreapp3.1\Mic
 E:\titlset rpg Maker\Perso\APNBackEnd\WebApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
 E:\titlset rpg Maker\Perso\APNBackEnd\WebApplication\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
 E:\titlset rpg Maker\Perso\APNBackEnd\WebApplication\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.Certificate.dll
+E:\titlset rpg Maker\Perso\APNBackEnd\WebApplication\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll

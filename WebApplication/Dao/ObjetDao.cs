@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication.Model;
@@ -16,7 +17,13 @@ namespace WebApplication.Dao
         {
             using (var _ObjetContex = new JdrContext())
             {
-                return _ObjetContex.ObjetTable.ToList();
+                List<Objet>listObjet = _ObjetContex.ObjetTable.ToList();
+                foreach (Objet objet in listObjet)
+                {
+                    Console.WriteLine(objet);
+                }
+
+                return listObjet;
             }
            
         }

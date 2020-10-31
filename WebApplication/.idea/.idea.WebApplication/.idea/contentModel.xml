@@ -9,18 +9,24 @@
       <e p="appsettings.json" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="Controllers" t="Include">
+        <e p="CharaController.cs" t="Include" />
         <e p="JdrController.cs" t="Include" />
         <e p="MembreController.cs" t="Include" />
         <e p="ObjetController.cs" t="Include" />
         <e p="WeatherForecastController.cs" t="Include" />
       </e>
       <e p="Dao" t="Include">
+        <e p="CharaDao.cs" t="Include" />
         <e p="JdrContext.cs" t="Include" />
         <e p="JdrDao.cs" t="Include" />
         <e p="MembreDao.cs" t="Include" />
         <e p="ObjetDao.cs" t="Include" />
       </e>
+      <e p="Databases" t="Include">
+        <e p="databases.cs" t="Include" />
+      </e>
       <e p="Model" t="Include">
+        <e p="Chara.cs" t="Include" />
         <e p="Jdr.cs" t="Include" />
         <e p="Membre.cs" t="Include" />
         <e p="Objet.cs" t="Include" />
