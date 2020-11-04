@@ -29,8 +29,32 @@ namespace WebApplication.Dao
             modelBuilder.Entity<Objet>()
                 .Property(S => S.val)
                 .HasDefaultValue("1d1");
-           
-                
+            modelBuilder.Entity<Objet>().HasKey(s => s.ObjetId);
+            modelBuilder.Entity<Objet>()
+                .HasOne<Chara>(s => s.chara)
+                .WithMany(s => s.objet)
+                .HasForeignKey(t => t.CharaId);
+            //Many to many JdrMembre
+            modelBuilder.Entity<JdrMembre>()
+                .HasOne<Membre>(s => s.membres)
+                .WithMany(t => t.ListMembre)
+                .HasForeignKey(x => x.MembreId);
+
+            modelBuilder.Entity<JdrMembre>()
+                .HasOne<Jdr>(x => x.jdrs)
+                .WithMany(x => x.jdrMembresList)
+                .HasForeignKey(x => x.MembreId);
+            //Many to One  Membre to Chara
+            modelBuilder.Entity<Chara>()
+                .HasOne<Membre>(x => x.mb)
+                .WithMany(x => x.ListCharas)
+                .HasForeignKey(x => x.MembreId);
+            //MANY to One Chara to jdr
+            modelBuilder.Entity<Chara>()
+                .HasOne<Jdr>(x => x.jdr)
+                .WithMany(x => x.jdrsList)
+                .HasForeignKey(x => x.JdrId);
+
         }
 
         public void ApplyOptionChange()

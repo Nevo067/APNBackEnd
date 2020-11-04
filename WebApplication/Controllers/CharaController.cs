@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using Microsoft.AspNetCore.Mvc;
 using WebApplication.Dao;
 using WebApplication.Model;
@@ -15,6 +16,14 @@ namespace WebApplication.Controllers
             CharaDao dao = new CharaDao();
             return dao.getChara();
         }
+        [HttpPost]
+        public ActionResult post(Chara ca)
+        {
+            Console.WriteLine(ca.Nom);
+            CharaDao dao = new CharaDao();
+            dao.post(ca);
+            return new OkResult();
+        }
 
         [HttpGet("membre/{id}")]
         public IEnumerable GetCharaByMembre(int id)
@@ -28,12 +37,6 @@ namespace WebApplication.Controllers
             CharaDao dao = new CharaDao();
             return dao.GetCharaByJdr(id);
         }
-        [HttpPost]
-        public ActionResult post(Chara ca)
-        {
-            CharaDao dao = new CharaDao();
-            dao.post(ca);
-            return new OkResult();
-        }
+        
     }
 }

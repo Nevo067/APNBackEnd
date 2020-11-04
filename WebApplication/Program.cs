@@ -29,7 +29,9 @@ namespace WebApplication
                 context.Database.EnsureCreated();
                 context.ApplyOptionChange();
                 //context.Database.
-              
+                Object obj = new Objet();
+                
+                
                 context.SaveChanges();
                 //var jdrWithName = context.JdrTable.First();
                 //Console.WriteLine(jdrWithName.Nom);

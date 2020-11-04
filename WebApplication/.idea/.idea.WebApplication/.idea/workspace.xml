@@ -26,35 +26,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5445550-3934-4db0-ade8-9bc159ac337c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Controllers/CharaController.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dao/CharaDao.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Databases/Databases.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model/Chara.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Model/JdrMembre.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Controllers/CharaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CharaController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dao/CharaDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/CharaDao.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Dao/JdrContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/JdrContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dao/MembreDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/MembreDao.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dao/ObjetDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/ObjetDao.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Model/Chara.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Chara.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/Jdr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Jdr.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/Membre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Membre.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Model/Objet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Objet.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Relational.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/WebApplication.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/WebApplication.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/WebApplication.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApplication.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/WebApplication.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApplication.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,18 +70,19 @@
         <option value="$PROJECT_DIR$/Dao/JdrDao.cs" />
         <option value="$PROJECT_DIR$/Controllers/JdrController.cs" />
         <option value="$PROJECT_DIR$/Controllers/MembreController.cs" />
-        <option value="$PROJECT_DIR$/Model/Jdr.cs" />
-        <option value="$PROJECT_DIR$/Model/Chara.cs" />
-        <option value="$PROJECT_DIR$/Dao/CharaDao.cs" />
-        <option value="$PROJECT_DIR$/Controllers/CharaController.cs" />
-        <option value="$PROJECT_DIR$/Model/Objet.cs" />
-        <option value="$PROJECT_DIR$/Model/Membre.cs" />
         <option value="$PROJECT_DIR$/Dao/MembreDao.cs" />
         <option value="$PROJECT_DIR$/Dao/ObjetDao.cs" />
         <option value="$PROJECT_DIR$/Databases/databases.cs" />
         <option value="$PROJECT_DIR$/Databases/Databases.cs" />
         <option value="$PROJECT_DIR$/Program.cs" />
+        <option value="$PROJECT_DIR$/Model/Chara.cs" />
+        <option value="$PROJECT_DIR$/Model/Membre.cs" />
+        <option value="$PROJECT_DIR$/Model/Jdr.cs" />
+        <option value="$PROJECT_DIR$/Model/JdrMembre.cs" />
         <option value="$PROJECT_DIR$/Dao/JdrContext.cs" />
+        <option value="$PROJECT_DIR$/Model/Objet.cs" />
+        <option value="$PROJECT_DIR$/Dao/CharaDao.cs" />
+        <option value="$PROJECT_DIR$/Controllers/CharaController.cs" />
       </list>
     </option>
   </component>
@@ -157,6 +144,7 @@
       <workItem from="1603840671607" duration="7045000" />
       <workItem from="1603966834239" duration="2985000" />
       <workItem from="1604048445477" duration="12362000" />
+      <workItem from="1604228680892" duration="28764000" />
     </task>
     <servers />
   </component>
@@ -181,34 +169,43 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1254" height="216" key="GridCell.Tab.0.bottom" timestamp="1604067479305">
-      <screen x="63" y="0" width="1297" height="768" />
+    <state width="1252" height="216" key="GridCell.Tab.0.bottom" timestamp="1604436697169">
+      <screen x="65" y="0" width="1295" height="768" />
     </state>
     <state width="1255" height="192" key="GridCell.Tab.0.bottom/62.0.1298.768@62.0.1298.768" timestamp="1603293130354" />
-    <state width="1254" height="216" key="GridCell.Tab.0.bottom/63.0.1297.768@63.0.1297.768" timestamp="1604067479305" />
+    <state width="1254" height="216" key="GridCell.Tab.0.bottom/63.0.1297.768@63.0.1297.768" timestamp="1604249262941" />
     <state width="1253" height="216" key="GridCell.Tab.0.bottom/64.0.1296.768@64.0.1296.768" timestamp="1603971243855" />
-    <state width="1254" height="216" key="GridCell.Tab.0.center" timestamp="1604067479305">
-      <screen x="63" y="0" width="1297" height="768" />
+    <state width="1252" height="216" key="GridCell.Tab.0.bottom/65.0.1295.768/-560.-1080.1280.720/-560.-2160.1280.720/-560.-3240.1280.720@65.0.1295.768" timestamp="1604436697169" />
+    <state width="1252" height="216" key="GridCell.Tab.0.bottom/65.0.1295.768@65.0.1295.768" timestamp="1604430480301" />
+    <state width="1252" height="216" key="GridCell.Tab.0.center" timestamp="1604436697169">
+      <screen x="65" y="0" width="1295" height="768" />
     </state>
     <state width="1255" height="192" key="GridCell.Tab.0.center/62.0.1298.768@62.0.1298.768" timestamp="1603293130354" />
-    <state width="1254" height="216" key="GridCell.Tab.0.center/63.0.1297.768@63.0.1297.768" timestamp="1604067479305" />
+    <state width="1254" height="216" key="GridCell.Tab.0.center/63.0.1297.768@63.0.1297.768" timestamp="1604249262941" />
     <state width="1253" height="216" key="GridCell.Tab.0.center/64.0.1296.768@64.0.1296.768" timestamp="1603971243855" />
-    <state width="1254" height="216" key="GridCell.Tab.0.left" timestamp="1604067479305">
-      <screen x="63" y="0" width="1297" height="768" />
+    <state width="1252" height="216" key="GridCell.Tab.0.center/65.0.1295.768/-560.-1080.1280.720/-560.-2160.1280.720/-560.-3240.1280.720@65.0.1295.768" timestamp="1604436697169" />
+    <state width="1252" height="216" key="GridCell.Tab.0.center/65.0.1295.768@65.0.1295.768" timestamp="1604430480301" />
+    <state width="1252" height="216" key="GridCell.Tab.0.left" timestamp="1604436697169">
+      <screen x="65" y="0" width="1295" height="768" />
     </state>
     <state width="1255" height="192" key="GridCell.Tab.0.left/62.0.1298.768@62.0.1298.768" timestamp="1603293130354" />
-    <state width="1254" height="216" key="GridCell.Tab.0.left/63.0.1297.768@63.0.1297.768" timestamp="1604067479305" />
+    <state width="1254" height="216" key="GridCell.Tab.0.left/63.0.1297.768@63.0.1297.768" timestamp="1604249262941" />
     <state width="1253" height="216" key="GridCell.Tab.0.left/64.0.1296.768@64.0.1296.768" timestamp="1603971243855" />
-    <state width="1254" height="216" key="GridCell.Tab.0.right" timestamp="1604067479305">
-      <screen x="63" y="0" width="1297" height="768" />
+    <state width="1252" height="216" key="GridCell.Tab.0.left/65.0.1295.768/-560.-1080.1280.720/-560.-2160.1280.720/-560.-3240.1280.720@65.0.1295.768" timestamp="1604436697169" />
+    <state width="1252" height="216" key="GridCell.Tab.0.left/65.0.1295.768@65.0.1295.768" timestamp="1604430480301" />
+    <state width="1252" height="216" key="GridCell.Tab.0.right" timestamp="1604436697169">
+      <screen x="65" y="0" width="1295" height="768" />
     </state>
     <state width="1255" height="192" key="GridCell.Tab.0.right/62.0.1298.768@62.0.1298.768" timestamp="1603293130354" />
-    <state width="1254" height="216" key="GridCell.Tab.0.right/63.0.1297.768@63.0.1297.768" timestamp="1604067479305" />
+    <state width="1254" height="216" key="GridCell.Tab.0.right/63.0.1297.768@63.0.1297.768" timestamp="1604249262941" />
     <state width="1253" height="216" key="GridCell.Tab.0.right/64.0.1296.768@64.0.1296.768" timestamp="1603971243855" />
-    <state x="547" y="90" key="RiderGenerateDialog" timestamp="1604048623511">
-      <screen x="63" y="0" width="1297" height="768" />
+    <state width="1252" height="216" key="GridCell.Tab.0.right/65.0.1295.768/-560.-1080.1280.720/-560.-2160.1280.720/-560.-3240.1280.720@65.0.1295.768" timestamp="1604436697169" />
+    <state width="1252" height="216" key="GridCell.Tab.0.right/65.0.1295.768@65.0.1295.768" timestamp="1604430480301" />
+    <state x="548" y="90" key="RiderGenerateDialog" timestamp="1604337020237">
+      <screen x="65" y="0" width="1295" height="768" />
     </state>
     <state x="547" y="90" key="RiderGenerateDialog/63.0.1297.768@63.0.1297.768" timestamp="1604048623511" />
+    <state x="548" y="90" key="RiderGenerateDialog/65.0.1295.768@65.0.1295.768" timestamp="1604337020237" />
     <state x="374" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604053490708">
       <screen x="63" y="0" width="1297" height="768" />
     </state>

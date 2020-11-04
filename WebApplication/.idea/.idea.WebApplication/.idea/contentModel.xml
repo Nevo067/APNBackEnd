@@ -28,6 +28,7 @@
       <e p="Model" t="Include">
         <e p="Chara.cs" t="Include" />
         <e p="Jdr.cs" t="Include" />
+        <e p="JdrMembre.cs" t="Include" />
         <e p="Membre.cs" t="Include" />
         <e p="Objet.cs" t="Include" />
       </e>

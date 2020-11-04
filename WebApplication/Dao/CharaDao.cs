@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using WebApplication.Model;
@@ -34,9 +35,11 @@ namespace WebApplication.Dao
         }
         public void post(Chara ca)
         {
+            Console.WriteLine(ca);
             using (var _jdrContext = new JdrContext())
             {
                 _jdrContext.Charactere.Add(ca);
+                _jdrContext.SaveChanges();
                 
             }
         }
