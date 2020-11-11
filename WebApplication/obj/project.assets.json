@@ -6237,19 +6237,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\kevin\\.nuget\\packages\\": {}
+    "C:\\Users\\cross\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\titlset rpg Maker\\Perso\\APNBackEnd\\WebApplication\\WebApplication.csproj",
+      "projectUniqueName": "C:\\Users\\cross\\OneDrive\\Bureau\\GITkEVIN\\APNBackEnd\\WebApplication\\WebApplication.csproj",
       "projectName": "WebApplication",
-      "projectPath": "E:\\titlset rpg Maker\\Perso\\APNBackEnd\\WebApplication\\WebApplication.csproj",
-      "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
-      "outputPath": "E:\\titlset rpg Maker\\Perso\\APNBackEnd\\WebApplication\\obj\\",
+      "projectPath": "C:\\Users\\cross\\OneDrive\\Bureau\\GITkEVIN\\APNBackEnd\\WebApplication\\WebApplication.csproj",
+      "packagesPath": "C:\\Users\\cross\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\cross\\OneDrive\\Bureau\\GITkEVIN\\APNBackEnd\\WebApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\cross\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -6318,7 +6318,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

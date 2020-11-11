@@ -16,6 +16,8 @@ namespace WebApplication.Dao
         
         public DbSet<Chara>Charactere { get; set; }
         
+        public DbSet<JdrMembre>JdrMembres { get; set; }
+        
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             
