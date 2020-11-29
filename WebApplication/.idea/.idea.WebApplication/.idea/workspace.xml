@@ -26,21 +26,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5445550-3934-4db0-ade8-9bc159ac337c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Model/JdrMembre.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.WebApplication/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Controllers/CharaController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Controllers/CharaController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dao/CharaDao.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/CharaDao.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dao/JdrContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Dao/JdrContext.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Chara.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Chara.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Jdr.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Jdr.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Membre.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Membre.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Model/Objet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Model/Objet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebApplication.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebApplication.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/netcoreapp3.1/WebApplication.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/WebApplication.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApplication.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/WebApplication.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/obj/WebApplication.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +141,8 @@
       <workItem from="1603966834239" duration="2985000" />
       <workItem from="1604048445477" duration="12362000" />
       <workItem from="1604228680892" duration="28764000" />
+      <workItem from="1606220700390" duration="27000" />
+      <workItem from="1606661440854" duration="3213000" />
     </task>
     <servers />
   </component>
@@ -169,6 +167,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2036" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606662913958">
+      <screen x="1920" y="0" width="1280" height="680" />
+    </state>
+    <state x="2036" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/70.0.1466.864/1920.0.1280.680@1920.0.1280.680" timestamp="1606662913958" />
     <state width="1252" height="216" key="GridCell.Tab.0.bottom" timestamp="1604436697169">
       <screen x="65" y="0" width="1295" height="768" />
     </state>

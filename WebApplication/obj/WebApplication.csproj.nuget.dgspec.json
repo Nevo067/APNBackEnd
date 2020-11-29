@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cross\\OneDrive\\Bureau\\GITkEVIN\\APNBackEnd\\WebApplication\\WebApplication.csproj": {}
+    "E:\\titlset rpg Maker\\Perso\\APNBackEnd\\WebApplication\\WebApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cross\\OneDrive\\Bureau\\GITkEVIN\\APNBackEnd\\WebApplication\\WebApplication.csproj": {
+    "E:\\titlset rpg Maker\\Perso\\APNBackEnd\\WebApplication\\WebApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cross\\OneDrive\\Bureau\\GITkEVIN\\APNBackEnd\\WebApplication\\WebApplication.csproj",
+        "projectUniqueName": "E:\\titlset rpg Maker\\Perso\\APNBackEnd\\WebApplication\\WebApplication.csproj",
         "projectName": "WebApplication",
-        "projectPath": "C:\\Users\\cross\\OneDrive\\Bureau\\GITkEVIN\\APNBackEnd\\WebApplication\\WebApplication.csproj",
-        "packagesPath": "C:\\Users\\cross\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cross\\OneDrive\\Bureau\\GITkEVIN\\APNBackEnd\\WebApplication\\obj\\",
+        "projectPath": "E:\\titlset rpg Maker\\Perso\\APNBackEnd\\WebApplication\\WebApplication.csproj",
+        "packagesPath": "C:\\Users\\kevin\\.nuget\\packages\\",
+        "outputPath": "E:\\titlset rpg Maker\\Perso\\APNBackEnd\\WebApplication\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\cross\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\kevin\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -56,6 +56,11 @@
               "target": "Package",
               "version": "[3.1.9, )"
             },
+            "Microsoft.NETCore.Targets": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "MySql.Data": {
               "target": "Package",
               "version": "[8.0.22, )"
@@ -75,6 +80,20 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Runtime.linux-x64",
+              "version": "[3.1.1, 3.1.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.linux-x64",
+              "version": "[3.1.1, 3.1.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Runtime.linux-x64",
+              "version": "[3.1.1, 3.1.1]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -83,7 +102,12 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files (x86)\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "ubuntu.18.04-x64": {
+          "#import": []
         }
       }
     }

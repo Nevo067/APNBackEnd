@@ -19,6 +19,7 @@
         <e p="CharaDao.cs" t="Include" />
         <e p="JdrContext.cs" t="Include" />
         <e p="JdrDao.cs" t="Include" />
+        <e p="JdrMembreDao.cs" t="Include" />
         <e p="MembreDao.cs" t="Include" />
         <e p="ObjetDao.cs" t="Include" />
       </e>
